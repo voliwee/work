@@ -11,7 +11,7 @@ public class DBUtil {
 	private static final String DRIVER = "oracle.jdbc.driver.OracleDriver" ;
 	private static final String USERS = "unionhb" ;
 	private static final String PASSWORD = "hbwmunion";
-	private static final String URL = "jdbc:oracle:thin@221.192.141.197:1521:orcl" ;
+	private static final String URL = "jdbc:oracle:thin@localhost:1521:orcl" ;
 	private Connection conn = null ;
 	
 	static{
